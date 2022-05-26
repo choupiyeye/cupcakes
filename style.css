@@ -1,3 +1,4 @@
+
 p 
 {
     color: rgb(10, 10, 15);
@@ -5,28 +6,21 @@ p
     border-radius: 10px;
 }
 
-h1
+ h1
 {
-    color: rgb(236, 137, 22);
-    
+    color: rgb(9, 9, 8);
     font-size: 60px; 
     text-align: center;
     font-size: 3em;
-    border: 3px rgb(236, 137, 22) groove;
+    border: 3px rgb(15, 15, 14) groove;
     
 }
 
-figure img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
+
 body
-    {
-        background-color: rgba(25, 209, 55, 0.473); 
-    
+{
+    background-color: rgba(25, 209, 55, 0.473); 
 }
-
-
 a 
 {
    text-decoration: none;
@@ -45,71 +39,113 @@ a:visited /* Quand le visiteur a déjà vu la page concernée */
     color: #AAA; /* Appliquer une couleur grise */
 }
 
-  
-figure {
-    text-align:center;
-  }
-  
-  
-ul {
+.bagniere ul {
     border: 1px solid rgb(8, 8, 8);
     box-shadow: 6px 6px 0px black;
- 
     display: flex;
-  
     background: #011603;
-   
     justify-content: space-around;
     padding: 12px;
   }
   
-  ul li {
+ul li {
     list-style: none; 
   }
-  h2
-  {font-size: 60px;
-     }
- 
-
-.glaçage{
+ h2{
+    font-size: 50px;
+    text-align: center;
+    border: 3px black solid;
+}
+ .titreII h3{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.titreII h4{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.glacage
+{
+   
     display: flex;
-    margin: auto;
-    flex-wrap : enveloppe ;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    text-align: center;
+    
     align-content: flex-start;
+    
+}
+.glacage img{
+    margin: auto;
+    display: inline;
     justify-content: space-around;
-    margin-top: auto;  
+    border-radius: 10%;
+    box-shadow: 6px 6px 0px black; 
+
 }
 .gateau
-{ display: flex;
-    flex-wrap : enveloppe ;
-align-content: flex-start;
-margin: auto;
-justify-content: space-around;
+{   display: flex;
+    text-align: center;
+    align-content: flex-start;
+    margin: auto;
+    justify-content: space-around;
+  
+    
+}
+.gateau img{
+    border-radius: 10%;
+    box-shadow: 6px 6px 0px black;
+}
+.gateau h4{ 
+    font-size: 30px;
+    text-decoration: underline;}
+.etape{
+    background-image: url('petit_carreaux.jpg');
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-left:650px;
+    margin-right:650px;
+    color:#090101;
+    border-left:1px solid #090101; /* couleur du cadre */
+    border-right:1px solid #060505;
+    border-bottom:1px solid #060606;
+    border-top:1px solid #0f0f0f;}
+.etape h2 {
+    font-size: 50px;
+    text-align: center;
+    border: none
+}
+ h4{ 
+     font-size: 30px;
+    text-decoration: underline;}
+@media screen and (max-width: 700px){
+    .etape {
+        display: none;
+    }
 
 }
-.etape
-    
-{background-image: url('petit_carreaux.jpg');
-text-align: center;
-     border-radius: 10px;
-   margin-left:650px;
-   margin-right:650px;
-   color:#090101;
-   
-   border-left:1px solid #090101; /* couleur du cadre */
-   border-right:1px solid #060505;
-   border-bottom:1px solid #060606;
-   border-top:1px solid #0f0f0f;
-}
-h2
-{font-size: 60px;
+.cupcake {
+    display: flex;
+    justify-content: center;
     
     }
-    @font-face {
-        font-family: "Baby_Script";
-        src: url("Baby_Script.ttf") format("ttf");
-              
-       }
+.cupcake img {
+    border-radius: 10%;
+    box-shadow: 6px 6px 0px black;
+}
+
+
+   
+
+
+
+   
+        
+
+    
+
+
 
 
 
